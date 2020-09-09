@@ -13,8 +13,6 @@ for (var px of fgImage.values()){
         var bgPx = bgImage.getPixel(x, y); // get same position in bgImage
         output.setPixel(x, y, bgPx);
     } else {
-        var x = px.getX(); //find x position
-        var y = px.getY();//find y position
         output.setPixel(x, y, px); 
     }
 }
